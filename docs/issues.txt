@@ -1,0 +1,12 @@
+Oct-17-2015
+
+- Problema con credenciales de servidor seguro en archivo de Gemas usando 
+  la ruta source 'https://rubygems.org'. 
+-- Solucionado cambiando por la 
+   siguiente ruta source 'http://rubygems.org'
+
+
+- Problema con haml, daba error al crear una vista super simple
+-- Solucionado agregando al archivo de Gemas 
+   gem 'coffee-script-source', '1.8.0' y luego ejecutando
+   bundle update coffee-script-source
