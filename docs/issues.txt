@@ -20,3 +20,9 @@ Oct-20-2015
    las siguientes lineas:
 --- Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.9.2-Q16'
 --- Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
+
+
+Oct-21-2015
+
+- Sacar algunos estilos de su folder assets del repositorio 
+  https://github.com/mackenziechild/pinterest_clone
