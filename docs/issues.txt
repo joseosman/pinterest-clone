@@ -10,3 +10,13 @@ Oct-17-2015
 -- Solucionado agregando al archivo de Gemas 
    gem 'coffee-script-source', '1.8.0' y luego ejecutando
    bundle update coffee-script-source
+
+
+Oct-20-2015
+
+- Error al subir imagenes con la gema de Paperclip
+-- Solucionado al instalar no solo el ejecutable de File.exe, sino tambien 
+   ImageMagick-6.9.2-4-Q16-x64-dll.exe y agregando al archivo development.rb
+   las siguientes lineas:
+--- Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.9.2-Q16'
+--- Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
